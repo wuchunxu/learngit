@@ -46,3 +46,10 @@ git每次commit都会创建一个快照，可以通过如下命令查看提交�
 如果确定提交删除，`git commit -m "remove test.txt"`，
 如果删除错了，可以通过`git checkout -- test.txt`回退（注意：此时恢复的版本库中的版本，没有提交的更改会丢失）
 
+### 添加远程仓库
+1、首先在github网站new一个新repository，名字与本地建的仓库名一致
+2、添加远程仓库：git remote add origin https://github.com/wuchunxu/learngit.git ，此时本地仓库与远程仓库关联起来
+3、推送内容到远程仓库
+首次推送内容：git push -u origin master，
+以后再推送用：git push origin master
+
