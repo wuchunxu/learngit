@@ -1,7 +1,7 @@
 Git入门指南
 ===========
-
-## 创建仓库 create repository
+整理自[廖雪峰老师的git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+## 创建仓库
 创建一个空文件夹，shell或cmd进入该文件夹，输入`git init`，以初始化仓库
 
 ## 添加文件
