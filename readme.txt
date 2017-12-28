@@ -1,8 +1,11 @@
+Git入门指南
+===========
 Git is a distributed version control system.
 Git is free software distributed under the GPL.
 This is wuchunxu's first repository created by git.
 
-## 创建仓库
+创建仓库
+---------
 创建一个空文件夹，并进入，输入`git init`，初始化仓库
 
 ## 添加文件
