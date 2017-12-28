@@ -28,3 +28,14 @@ git每次commit都会创建一个快照，可以通过如下命令查看提交�
 
 如果想从旧版本再回退到新版本，只要找到相应的id号即可，通过`git reflog`查看每次操作的命令记录，然后`git reset --hard {id}`
 那么，每个id代表什么版本呢？这就要看自己的注释了，也就是git commit -m "modify description"中的modify description，每次提交的时候都会有个备注。
+
+## 撤销更改
+### 撤销工作区的更改
+`git checkout -- readme.txt`
+### 撤销暂存区的更改
+第一步：撤销更改到工作区`git reset HEAD readme.txt`;
+第二步：撤销工作区中的更改 `git checkout -- readme.txt`;
+
+如果commit更改了，则通过版本回退
+但如果提交到远程仓库，就...
+
